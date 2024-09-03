@@ -1,0 +1,20 @@
+{
+  "name": "react-ylab",
+  "version": "1.0.0",
+  "description": "Form for React Ylab course.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "rm -rf dist && webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Aleksandr Chukharev",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
