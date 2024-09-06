@@ -1,0 +1,28 @@
+.spinner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f4f6f9; /* Light grey */
+  padding: 30px;
+  max-width: 400px;
+  margin: 40px auto;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #3498db; 
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 100px auto;
+  }
+  
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
